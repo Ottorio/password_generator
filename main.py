@@ -24,19 +24,19 @@ root.geometry("300x200")
 # create dropdown for password
 password_list = ctk.CTkComboBox(root, values=[str(i) for i in range(8, 21)])
 password_list.set("8")
-password_list.pack(pady = 5)
+password_list.pack(pady=5)
 
 # create "generate" button
 generate_button = ctk.CTkButton(root, text="GENERATE", command=generate_password)
-generate_button.pack(pady = 5)
+generate_button.pack(pady=5)
 
 # create "copy" button
 copy_button = ctk.CTkButton(root, text="COPY", command=copy_password)
-copy_button.pack(pady = 5)
+copy_button.pack(pady=5)
 
 # create output window
 output = ctk.CTkLabel(root, text="")
-output.pack(pady = 20)
+output.pack(pady=20)
 
 # run
 root.mainloop()
