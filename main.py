@@ -1,6 +1,6 @@
 import random
 import string
-import customtkinter as ctk
+import customtkinter as ctk # type: ignore
 
 
 # prepare functions
